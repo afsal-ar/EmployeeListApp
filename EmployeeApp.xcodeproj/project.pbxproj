@@ -14,6 +14,26 @@
 		5811681828D59E84008BF073 /* EmployeeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5811681628D59E84008BF073 /* EmployeeApp.xcdatamodeld */; };
 		5811681A28D59E89008BF073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5811681928D59E89008BF073 /* Assets.xcassets */; };
 		5811681D28D59E89008BF073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5811681B28D59E89008BF073 /* LaunchScreen.storyboard */; };
+		588082BA28D5AC7200900533 /* EmpListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082B928D5AC7200900533 /* EmpListVC.swift */; };
+		588082C428D5B41D00900533 /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082BC28D5B41C00900533 /* Address+CoreDataProperties.swift */; };
+		588082C528D5B41D00900533 /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082BD28D5B41C00900533 /* Address+CoreDataClass.swift */; };
+		588082C628D5B41D00900533 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082BE28D5B41C00900533 /* Company+CoreDataProperties.swift */; };
+		588082C728D5B41D00900533 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082BF28D5B41D00900533 /* Employee+CoreDataClass.swift */; };
+		588082C828D5B41D00900533 /* Geo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082C028D5B41D00900533 /* Geo+CoreDataClass.swift */; };
+		588082C928D5B41D00900533 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082C128D5B41D00900533 /* Employee+CoreDataProperties.swift */; };
+		588082CA28D5B41D00900533 /* Geo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082C228D5B41D00900533 /* Geo+CoreDataProperties.swift */; };
+		588082CB28D5B41D00900533 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082C328D5B41D00900533 /* Company+CoreDataClass.swift */; };
+		588082CF28D5C49F00900533 /* EmpListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082CD28D5C49F00900533 /* EmpListTVC.swift */; };
+		588082D028D5C49F00900533 /* EmpListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588082CE28D5C49F00900533 /* EmpListTVC.xib */; };
+		588082D328D5D43100900533 /* EmpDetailsVCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082D228D5D43100900533 /* EmpDetailsVCV.swift */; };
+		588082D728D5D58100900533 /* EmpDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588082D528D5D58100900533 /* EmpDetailsCell.swift */; };
+		588082D828D5D58100900533 /* EmpDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588082D628D5D58100900533 /* EmpDetailsCell.xib */; };
+		58BE763628D5A5CE004A548E /* GeoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE763228D5A5CC004A548E /* GeoModel.swift */; };
+		58BE763728D5A5CE004A548E /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE763328D5A5CD004A548E /* CompanyModel.swift */; };
+		58BE763828D5A5CE004A548E /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE763428D5A5CD004A548E /* EmployeeModel.swift */; };
+		58BE763928D5A5CE004A548E /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE763528D5A5CE004A548E /* AddressModel.swift */; };
+		58BE763D28D5A882004A548E /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE763C28D5A882004A548E /* ParseManager.swift */; };
+		86FB51B5CE428416DA9441E6 /* Pods_EmployeeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7673BAAF6F6CCA30C10DAFE0 /* Pods_EmployeeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,28 @@
 		5811681928D59E89008BF073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5811681C28D59E89008BF073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5811681E28D59E89008BF073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588082B928D5AC7200900533 /* EmpListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpListVC.swift; sourceTree = "<group>"; };
+		588082BC28D5B41C00900533 /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		588082BD28D5B41C00900533 /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
+		588082BE28D5B41C00900533 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		588082BF28D5B41D00900533 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		588082C028D5B41D00900533 /* Geo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Geo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		588082C128D5B41D00900533 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		588082C228D5B41D00900533 /* Geo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Geo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		588082C328D5B41D00900533 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		588082CD28D5C49F00900533 /* EmpListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpListTVC.swift; sourceTree = "<group>"; };
+		588082CE28D5C49F00900533 /* EmpListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmpListTVC.xib; sourceTree = "<group>"; };
+		588082D228D5D43100900533 /* EmpDetailsVCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpDetailsVCV.swift; sourceTree = "<group>"; };
+		588082D528D5D58100900533 /* EmpDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpDetailsCell.swift; sourceTree = "<group>"; };
+		588082D628D5D58100900533 /* EmpDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmpDetailsCell.xib; sourceTree = "<group>"; };
+		58BE763228D5A5CC004A548E /* GeoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoModel.swift; sourceTree = "<group>"; };
+		58BE763328D5A5CD004A548E /* CompanyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		58BE763428D5A5CD004A548E /* EmployeeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		58BE763528D5A5CE004A548E /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		58BE763C28D5A882004A548E /* ParseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseManager.swift; sourceTree = "<group>"; };
+		72106EFD71DFF30F24D47D63 /* Pods-EmployeeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeApp.release.xcconfig"; path = "Target Support Files/Pods-EmployeeApp/Pods-EmployeeApp.release.xcconfig"; sourceTree = "<group>"; };
+		7673BAAF6F6CCA30C10DAFE0 /* Pods_EmployeeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmployeeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96EB4C0E8E7405518CD30FA /* Pods-EmployeeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeApp.debug.xcconfig"; path = "Target Support Files/Pods-EmployeeApp/Pods-EmployeeApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FB51B5CE428416DA9441E6 /* Pods_EmployeeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +87,8 @@
 			children = (
 				5811680C28D59E84008BF073 /* EmployeeApp */,
 				5811680B28D59E84008BF073 /* Products */,
+				E46D939A24A419D6060688F9 /* Pods */,
+				CBB2FD000C73CBCE922178FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +103,9 @@
 		5811680C28D59E84008BF073 /* EmployeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				588082B528D5AB9A00900533 /* Controllers */,
+				58BE763A28D5A84E004A548E /* HelperClass */,
+				58BE763128D5A5B3004A548E /* Model */,
 				5811680D28D59E84008BF073 /* AppDelegate.swift */,
 				5811680F28D59E84008BF073 /* SceneDelegate.swift */,
 				5811681128D59E84008BF073 /* ViewController.swift */,
@@ -70,6 +118,103 @@
 			path = EmployeeApp;
 			sourceTree = "<group>";
 		};
+		588082B528D5AB9A00900533 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				588082D128D5D40700900533 /* EmpDetailsVC */,
+				588082B828D5AC6100900533 /* EmpList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		588082B828D5AC6100900533 /* EmpList */ = {
+			isa = PBXGroup;
+			children = (
+				588082CC28D5C48000900533 /* EmpListTableCell */,
+				588082B928D5AC7200900533 /* EmpListVC.swift */,
+			);
+			path = EmpList;
+			sourceTree = "<group>";
+		};
+		588082BB28D5B41000900533 /* CoreDataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				588082C028D5B41D00900533 /* Geo+CoreDataClass.swift */,
+				588082C228D5B41D00900533 /* Geo+CoreDataProperties.swift */,
+				588082C328D5B41D00900533 /* Company+CoreDataClass.swift */,
+				588082BE28D5B41C00900533 /* Company+CoreDataProperties.swift */,
+				588082BD28D5B41C00900533 /* Address+CoreDataClass.swift */,
+				588082BC28D5B41C00900533 /* Address+CoreDataProperties.swift */,
+				588082BF28D5B41D00900533 /* Employee+CoreDataClass.swift */,
+				588082C128D5B41D00900533 /* Employee+CoreDataProperties.swift */,
+			);
+			path = CoreDataHelper;
+			sourceTree = "<group>";
+		};
+		588082CC28D5C48000900533 /* EmpListTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				588082CD28D5C49F00900533 /* EmpListTVC.swift */,
+				588082CE28D5C49F00900533 /* EmpListTVC.xib */,
+			);
+			path = EmpListTableCell;
+			sourceTree = "<group>";
+		};
+		588082D128D5D40700900533 /* EmpDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				588082D428D5D56200900533 /* EmpDetailCell */,
+				588082D228D5D43100900533 /* EmpDetailsVCV.swift */,
+			);
+			path = EmpDetailsVC;
+			sourceTree = "<group>";
+		};
+		588082D428D5D56200900533 /* EmpDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				588082D528D5D58100900533 /* EmpDetailsCell.swift */,
+				588082D628D5D58100900533 /* EmpDetailsCell.xib */,
+			);
+			path = EmpDetailCell;
+			sourceTree = "<group>";
+		};
+		58BE763128D5A5B3004A548E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58BE763528D5A5CE004A548E /* AddressModel.swift */,
+				58BE763328D5A5CD004A548E /* CompanyModel.swift */,
+				58BE763228D5A5CC004A548E /* GeoModel.swift */,
+				58BE763428D5A5CD004A548E /* EmployeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58BE763A28D5A84E004A548E /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				588082BB28D5B41000900533 /* CoreDataHelper */,
+				58BE763C28D5A882004A548E /* ParseManager.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		CBB2FD000C73CBCE922178FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7673BAAF6F6CCA30C10DAFE0 /* Pods_EmployeeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E46D939A24A419D6060688F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C96EB4C0E8E7405518CD30FA /* Pods-EmployeeApp.debug.xcconfig */,
+				72106EFD71DFF30F24D47D63 /* Pods-EmployeeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5811682128D59E89008BF073 /* Build configuration list for PBXNativeTarget "EmployeeApp" */;
 			buildPhases = (
+				2DB410AAF0C929A43E616A21 /* [CP] Check Pods Manifest.lock */,
 				5811680628D59E84008BF073 /* Sources */,
 				5811680728D59E84008BF073 /* Frameworks */,
 				5811680828D59E84008BF073 /* Resources */,
+				805634381A3E159F0B04E23C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,21 +277,82 @@
 			files = (
 				5811681D28D59E89008BF073 /* LaunchScreen.storyboard in Resources */,
 				5811681A28D59E89008BF073 /* Assets.xcassets in Resources */,
+				588082D028D5C49F00900533 /* EmpListTVC.xib in Resources */,
+				588082D828D5D58100900533 /* EmpDetailsCell.xib in Resources */,
 				5811681528D59E84008BF073 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DB410AAF0C929A43E616A21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmployeeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805634381A3E159F0B04E23C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmployeeApp/Pods-EmployeeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmployeeApp/Pods-EmployeeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmployeeApp/Pods-EmployeeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5811680628D59E84008BF073 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588082D728D5D58100900533 /* EmpDetailsCell.swift in Sources */,
+				588082C828D5B41D00900533 /* Geo+CoreDataClass.swift in Sources */,
+				588082CF28D5C49F00900533 /* EmpListTVC.swift in Sources */,
 				5811681228D59E84008BF073 /* ViewController.swift in Sources */,
 				5811681828D59E84008BF073 /* EmployeeApp.xcdatamodeld in Sources */,
+				588082C628D5B41D00900533 /* Company+CoreDataProperties.swift in Sources */,
 				5811680E28D59E84008BF073 /* AppDelegate.swift in Sources */,
+				588082C928D5B41D00900533 /* Employee+CoreDataProperties.swift in Sources */,
+				588082C428D5B41D00900533 /* Address+CoreDataProperties.swift in Sources */,
+				588082C728D5B41D00900533 /* Employee+CoreDataClass.swift in Sources */,
+				588082C528D5B41D00900533 /* Address+CoreDataClass.swift in Sources */,
 				5811681028D59E84008BF073 /* SceneDelegate.swift in Sources */,
+				58BE763D28D5A882004A548E /* ParseManager.swift in Sources */,
+				588082CA28D5B41D00900533 /* Geo+CoreDataProperties.swift in Sources */,
+				58BE763628D5A5CE004A548E /* GeoModel.swift in Sources */,
+				588082CB28D5B41D00900533 /* Company+CoreDataClass.swift in Sources */,
+				58BE763828D5A5CE004A548E /* EmployeeModel.swift in Sources */,
+				58BE763928D5A5CE004A548E /* AddressModel.swift in Sources */,
+				588082D328D5D43100900533 /* EmpDetailsVCV.swift in Sources */,
+				58BE763728D5A5CE004A548E /* CompanyModel.swift in Sources */,
+				588082BA28D5AC7200900533 /* EmpListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +494,7 @@
 		};
 		5811682228D59E89008BF073 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96EB4C0E8E7405518CD30FA /* Pods-EmployeeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +523,7 @@
 		};
 		5811682328D59E89008BF073 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72106EFD71DFF30F24D47D63 /* Pods-EmployeeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -6,9 +6,12 @@
 //
 
 import UIKit
-
+import SDWebImage
 class EmpListTVC: UITableViewCell {
 
+    @IBOutlet weak var empEmail: UILabel!
+    @IBOutlet weak var empImg: UIImageView!
+    @IBOutlet weak var empName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +23,11 @@ class EmpListTVC: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
+    func setEmpData(model : Employee?){
+        
+        empName.text = model?.name ?? ""
+        empEmail.text = model?.email ?? ""
+        empImg.sd_setImage(with: URL(string: model?.profile_image ?? ""), placeholderImage:#imageLiteral(resourceName: "placeholder"))
+    }
 }
